@@ -33,7 +33,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Exemplary Rest API")
-                .description("This is just a simple description")
+                .description("This is a simple description")
                 .version("1-0-SNAPSHOT")
                 .build();
     }
