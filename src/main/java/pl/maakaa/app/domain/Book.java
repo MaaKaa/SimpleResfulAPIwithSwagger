@@ -1,4 +1,4 @@
-package pl.maakaa.app;
+package pl.maakaa.app.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

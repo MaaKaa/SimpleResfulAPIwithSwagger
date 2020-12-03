@@ -1,4 +1,4 @@
-package pl.maakaa.app;
+package pl.maakaa.app.swagger;
 
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
@@ -42,7 +42,7 @@ public class SwaggerConfig {
     //Allow paths that matches the given Predicate
     private Predicate<String> paths() {
         return Predicates.and(
-                PathSelectors.regex("/customer.*"),
+                PathSelectors.regex("/books.*"),
                 Predicates.not(PathSelectors.regex("/error.*")));
     }
 }
